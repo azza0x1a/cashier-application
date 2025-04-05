@@ -1,0 +1,58 @@
+name: mozaic_app
+description: Mozaic Point of Sale System.
+
+version: 3.0.0+11
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  dio: ^5.6.0
+  esc_pos_utils: ^1.1.0
+  flutter_launcher_icons: ^0.11.0
+  flutter_svg: ^2.0.2
+  http: ^0.13.4
+  intl: ^0.19.0
+  loading_animation_widget: ^1.2.0+4
+  package_info_plus: ^4.0.1
+  permission_handler: ^11.3.0
+  print_bluetooth_thermal: ^1.1.1
+  shared_preferences: ^2.0.13
+  url_launcher: ^6.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.0.4
+  flutter_lints: ^4.0.0
+  json_serializable: ^6.6.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path_android: "assets/mozaic/mozaic_icon.png"
+  image_path_ios: "assets/mozaic/mozaic_icon.png"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/mozaic/
+    - assets/icons/logo-ahn-01.png
+    - assets/icons/logo-cashion-02.png
+
+  fonts:
+  - family: Montserrat
+    fonts:
+    - asset: fonts/Montserrat-Regular.ttf
+  - family: NunitoSans
+    fonts:
+    - asset: fonts/NunitoSans-Regular.ttf
+
